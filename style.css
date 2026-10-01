@@ -357,7 +357,7 @@ footer {
 
 .home-page .nav a {
 	color: #68736d;
-	font-size: 12px;
+	font-size:22px;
 	font-weight: bold;
 	letter-spacing: 0.05em;
 	text-decoration: none;
@@ -499,7 +499,8 @@ footer {
 	box-shadow: 10px 10px 0 #d8cbbb;
 }
 
-.home-card-featured { background: #52645b; }
+.home-card-featured,
+.home-card-education { background: #ffffff; }
 
 .card-number {
 	display: block;
@@ -513,7 +514,16 @@ footer {
 .home-card-featured .card-number,
 .home-card-featured h2,
 .home-card-featured p,
-.home-card-featured li { color: #fffdf9; }
+.home-card-featured li,
+.home-card-featured .project-list span,
+.home-card-featured .project-list strong,
+.home-card-featured .project-list em { color: #000000; }
+
+.home-card-education .card-number,
+.home-card-education h2,
+.home-card-education p,
+.home-card-education li,
+.home-card-education .education-list span { color: #000000; }
 
 .home-card h2 {
 	margin: 0 0 12px;
@@ -559,22 +569,26 @@ footer {
 	border-top: 1px solid rgba(255, 253, 249, 0.28);
 }
 
-.project-list li { grid-template-columns: 28px 1fr auto; gap: 10px; }
+.project-list li {
+	grid-template-columns: 28px 1fr auto;
+	gap: 10px;
+	border-color: #e7dfd3;
+}
 
 .project-list li span {
-	color: #d8cbbb;
+	color: #000000;
 	font-size: 10px;
 	font-weight: normal;
 }
 
 .project-list li strong {
-	color: #fffdf9;
+	color: #000000;
 	font-size: 12px;
 	letter-spacing: 0.08em;
 }
 
 .project-list li em {
-	color: #d8cbbb;
+	color: #000000;
 	font-size: 11px;
 	font-style: normal;
 	letter-spacing: 0;
